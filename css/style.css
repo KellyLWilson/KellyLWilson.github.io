@@ -17,11 +17,19 @@ header img {
 }
 
   h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
   text-shadow: 2px 2px 10px black;
 }
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
 
 header {
   margin-bottom: 10px;
