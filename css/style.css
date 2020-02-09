@@ -11,10 +11,6 @@ html, body {
 	margin: 0 auto; 
 }
 
-body {
-  background-image: url("beach.jpg");
-  background-image: url("my-app/beach.jpg");
-}
 html {
   font-size: 18px;
   background-color: skyblue;
