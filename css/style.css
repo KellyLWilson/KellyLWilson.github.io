@@ -8,7 +8,7 @@ html, body {
 html {
   font-size: 18px;
   background-color: skyblue;
-  background-image: "/kelly blog/beach.jpg";
+  background-image: "beach.jpg";
   background-position: cover;
 }
 
@@ -67,5 +67,6 @@ nav a, nav span {
 
 }
 
-main, header, nav, article, aside, footer, section {
+main, header, nav, article, footer, {
   padding: 1%;
+}
