@@ -5,11 +5,13 @@ html, body {
   padding: 0;
 }
 
+body {
+  background-image: url("beach.jpg");
+  background-image: url("my-app/beach.jpg");
+}
 html {
   font-size: 18px;
   background-color: skyblue;
-  background-image: "beach.jpg";
-  background-position: cover;
 }
 
 
