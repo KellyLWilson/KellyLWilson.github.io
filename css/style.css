@@ -5,6 +5,12 @@ html, body {
   padding: 0;
 }
 
+/* "auto" makes the left and right margins center the wrapper */
+#wrap { 
+	width: 900px; 
+	margin: 0 auto; 
+}
+
 body {
   background-image: url("beach.jpg");
   background-image: url("my-app/beach.jpg");
@@ -34,8 +40,9 @@ h2 {
 
 header {
   margin-bottom: 10px;
-  display: flex;
-  flex-flow: row wrap;  
+  display: center;
+  flex-flow: row wrap;
+  
 }
 
 nav {
