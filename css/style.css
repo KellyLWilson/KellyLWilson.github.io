@@ -13,12 +13,12 @@ html, body {
 
 html {
   font-size: 18px;
-  background: url('https://kellylwilson.github.io/my-app/beach.jpg');
+  background: url('/beach.jpg');
   background-repeat:no-repeat;
 }
       
 body {
-  background: url('hhttps://kellylwilson.github.io/my-app/beach.jpg') skyblue;
+  background: url('/beach.jpg') skyblue;
   background size: cover;
   background-repeat:no-repeat;
 }
@@ -43,7 +43,7 @@ h2 {
 
 
 header {
- margin-bottom: 10px;
+ margin-bottom: 7px;
   display: center;
   flex-flow: row wrap;
   padding: 0
