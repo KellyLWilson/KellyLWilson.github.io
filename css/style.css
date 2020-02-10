@@ -19,7 +19,7 @@ html {
 }
       
 body {
-  background: url(beach.jpg) skyblue;
+  background: url("beach.jpg") skyblue;
 }
 
 h1 {
