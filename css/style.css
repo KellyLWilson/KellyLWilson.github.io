@@ -15,12 +15,12 @@ html {
   font-size: 18px;
   background-color: skyblue;
   background image: url(beach.jpg);
-  background position: cover;
+  background size: cover;
 }
       
 body {
   background: url("beach.jpg") skyblue;
-  background position: cover;
+  background size: cover;
 }
 
 h1 {
