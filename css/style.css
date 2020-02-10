@@ -17,11 +17,11 @@ html {
   background image: url(beach.jpg);
   background position: center;
 }
-
-body {
- background-image: url(beach.jpg);
-}
       
+body {
+  background: url(beach.jpg) skyblue;
+}
+
 h1 {
   font-size: 6rem;
   font-family: cursive;
