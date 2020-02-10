@@ -3,6 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  line-height: 0;
 }
 
 /* "auto" makes the left and right margins center the wrapper */
@@ -29,7 +30,9 @@ h1 {
   text-align: center;
   text-decoration-color: transparent;
   text-shadow: 2px 2px 10px black;
-  padding: 1em;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
 }
 
 h2 {
@@ -37,13 +40,17 @@ h2 {
   font-family: cursive;
   text-align: center;
   text-shadow: 2px 2px 10px black;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
 
 
 header {
   margin-bottom: 10px;
   display: center;
-  flex-flow: row wrap;	
+  flex-flow: row wrap;
+  padding: 0
 }
 
 nav {
@@ -74,11 +81,10 @@ nav a, nav span {
   line-height: 1.7;
   text-decoration: none;
   color: black;
-
 }
 
 main, header, nav, article, footer, {
-  padding: 1%;
+  padding: 0;
 }
 
 .center {
