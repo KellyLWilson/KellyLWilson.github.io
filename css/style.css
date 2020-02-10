@@ -14,10 +14,16 @@ html, body {
 html {
   font-size: 18px;
   background-color: skyblue;
+  background image: url(beach.jpg);
+  background position: cover;
+}
+      
+body {
+  background: url("beach.jpg") skyblue;
+  background position: cover;
 }
 
-
-  h1 {
+h1 {
   font-size: 6rem;
   font-family: cursive;
   text-align: center;
