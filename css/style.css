@@ -18,8 +18,11 @@ html {
   background position: center;
 }
 
-
-  h1 {
+body {
+ background-image: url('beach.jpg');
+}
+      
+h1 {
   font-size: 6rem;
   font-family: cursive;
   text-align: center;
