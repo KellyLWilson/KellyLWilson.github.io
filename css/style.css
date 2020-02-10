@@ -43,7 +43,7 @@ h2 {
 
 
 header {
- margin-bottom: 5px;
+ margin-bottom: 3px;
   display: center;
   flex-flow: row wrap;
   padding: 0
@@ -55,6 +55,7 @@ nav {
   flex: 100%;
   display: flex;
   text-shadow: 2px 2px 10px black;
+  margin-bottom: 2px;
 }
 
 nav ul {
