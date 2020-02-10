@@ -37,8 +37,7 @@ h2 {
 header {
   margin-bottom: 10px;
   display: center;
-  flex-flow: row wrap;
-  padding: 1em;	
+  flex-flow: row wrap;	
 }
 
 nav {
