@@ -13,14 +13,14 @@ html, body {
 
 html {
   font-size: 18px;
-  background-color: skyblue;
-  background image: url(beach.jpg);
-  background position: cover;
+  background: url('/beach.jpg');
+  background-repeat:no-repeat;
 }
       
 body {
-  background: url("beach.jpg") skyblue;
-  background position: cover;
+  background: url('/beach.jpg') skyblue;
+  background size: cover;
+  background-repeat:no-repeat;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
   text-align: center;
   text-decoration-color: transparent;
   text-shadow: 2px 2px 10px black;
-  padding: 1em;
+  padding: 0.25em;
 }
 
 h2 {
@@ -37,13 +37,16 @@ h2 {
   font-family: cursive;
   text-align: center;
   text-shadow: 2px 2px 10px black;
+  margin-top: 2px;
+  padding: 0.25;
 }
 
 
 header {
-  margin-bottom: 10px;
+ margin-bottom: 2px;
   display: center;
-  flex-flow: row wrap;	
+  flex-flow: row wrap;
+  padding: 0
 }
 
 nav {
@@ -52,10 +55,11 @@ nav {
   flex: 100%;
   display: flex;
   text-shadow: 2px 2px 10px black;
+  margin-bottom: 2px;
 }
 
 nav ul {
-  padding: 0;
+  padding: 0.25;
   list-style-type: none;
   flex: 2;
   display: flex;
@@ -74,11 +78,10 @@ nav a, nav span {
   line-height: 1.7;
   text-decoration: none;
   color: black;
-
 }
 
 main, header, nav, article, footer, {
-  padding: 1%;
+  padding: 0;
 }
 
 .center {
