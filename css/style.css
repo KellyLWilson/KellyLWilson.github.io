@@ -56,6 +56,7 @@ nav {
   display: flex;
   text-shadow: 2px 2px 10px black;
   margin-bottom: 2px;
+  padding: 0.25em;
 }
 
 nav ul {
@@ -96,6 +97,7 @@ weather {
     height: 200px;
     background-color: yellow;
     float:left;
+    padding: 0.25em;
 }    
 
 .wbutt { 
