@@ -1,6 +1,6 @@
 function picturesun(){ 
-        /* var pic = "./sun.jpg"; */
-        return src=sun.jpg;
+        .src=./sun.jpg";
+        
         }
 
 function picturerain(){ 
