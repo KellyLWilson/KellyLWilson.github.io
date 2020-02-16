@@ -1,12 +1,12 @@
-function picture-sun(){ 
+function picturesun(){ 
         /* var pic = "./sun.jpg"; */
         return src=sun.jpg;
         }
 
-function picture-rain(){ 
+function picturerain(){ 
         var pic = "./rain.jpg";
         }
 
-function picture-snow(){ 
+function picturesnow(){ 
         var pic = "./snow.jpg";
         }
