@@ -1,5 +1,5 @@
 function pictureChangesun(){
-          document.getElementById("theImage").src="./sun.jpg";
+          document.getElementById("theImage").src="./Sun.jpg";
     }
 
 function pictureChangerain(){
