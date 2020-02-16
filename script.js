@@ -3,12 +3,13 @@ function Choice () {
     var rain = background color = blue;
     var snow = background color = white;
 
-    if (sun.clicked == true) {
+    if (button id = sun == true) {
         box.style.backgroundColor = "yellow";
-    } else if (rain.clicked == true) {
+    } else if (button id = rain == true) {
         box.style.backgroundColor = "blue";
     } else {
-        snow.style.backgroundColor = "white";
+        button id = snow == true) {
+        box.style.groundColor = "white";
     };
 };
 
