@@ -1,16 +1,11 @@
-function Choice () {
-    var sun = background color = yellow;
-    var rain = background color = blue;
-    var snow = background color = white;
+function picture-sun(){ 
+        var pic = "./sun.jpg";
+        }
 
-    if (button id = sun == true) {
-        box.style.backgroundColor = "yellow";
-    } else if (button id = rain == true) {
-        box.style.backgroundColor = "blue";
-    } else {
-        button id = snow == true) {
-        box.style.groundColor = "white";
-    };
-};
+function picture-rain(){ 
+        var pic = "./rain.jpg";
+        }
 
-Choice ();
+function picture-snow(){ 
+        var pic = "./snow.jpg";
+        }
