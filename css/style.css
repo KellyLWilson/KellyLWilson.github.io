@@ -13,12 +13,11 @@ html, body {
 
 html {
   font-size: 18px;
-  background: url('/beach.jpg');
-  background-repeat:no-repeat;
+
 }
       
 body {
-  background: url('/beach.jpg') skyblue;
+  background color: skyblue;
   background size: cover;
   background-repeat:no-repeat;
 }
