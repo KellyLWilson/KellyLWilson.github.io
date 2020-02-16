@@ -1,12 +1,11 @@
-function picturesun(){ 
-        .src=./sun.jpg";
-        
-        }
+function pictureChangesun(){
+          document.getElementById("theImage").src="./sun.jpg";
+    }
 
-function picturerain(){ 
-        var pic = "./rain.jpg";
-        }
+function pictureChangerain(){
+          document.getElementById("theImage").src="./rain.jpg";
+    }
 
-function picturesnow(){ 
-        var pic = "./snow.jpg";
-        }
+function pictureChangesnow(){
+          document.getElementById("theImage").src="./snow.jpg";
+    }
