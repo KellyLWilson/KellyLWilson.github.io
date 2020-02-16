@@ -90,3 +90,9 @@ main, header, nav, article, footer, {
   margin-right: auto;
   width: 75%;
 }
+
+weather {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}    
