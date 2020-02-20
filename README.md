@@ -1,2 +1,2 @@
-# my-app
-Second Take on a Blog
+# KellyLWilson.github.io
+Kelly L Wilson's Blog
