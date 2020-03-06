@@ -1,24 +1,21 @@
 /* || General setup */
 
+body {
+  background-color: skyblue;
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
-/* "auto" makes the left and right margins center the wrapper */
-#wrap { 
-	width: 900px; 
-	margin: 0 auto; 
-}
+
 
 html {
   font-size: 18px;
 
 }
       
-body {
-  background-color: skyblue;
-}
 
 h1 {
   font-size: 6rem;
@@ -52,7 +49,7 @@ nav {
   flex: 100%;
   display: flex;
   text-shadow: 2px 2px 10px black;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   padding: 0.5em;
 }
 
@@ -61,12 +58,14 @@ nav ul {
   list-style-type: none;
   flex: 2;
   display: flex;
+  margin-bottom: 2px;
 }
 
 nav li {
   display: inline;
   text-align: center;
   flex: 1;
+  margin-bottom: 2px;
 }
 
 nav a, nav span {
@@ -76,20 +75,21 @@ nav a, nav span {
   line-height: 1.7;
   text-decoration: none;
   color: black;
+  margin-bottom: 2px;
 }
 
-main, header, nav, article, footer, {
+/*main, header, nav, article, footer, {
   padding: 0;
 }
 
-.center {
+/*.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
 }
 
-weather {
+/*weather {
     width: 200px;
     height: 200px;
     background-color: yellow;
@@ -97,7 +97,7 @@ weather {
     padding: 0.25em;
 }    
 
-.wbutt { 
+/*.wbutt { 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,14 +106,14 @@ weather {
 }
 
 /* Popup container */
-.popup {
+/*.popup {
     position: relative;
     display: inline-block;
     cursor: pointer;
 }
 
 /* The actual popup (appears on top) */
-.popup .popuptext {
+/*.popup .popuptext {
     visibility: hidden;
     width: 160px;
     background-color: #555;
@@ -129,7 +129,7 @@ weather {
 }
 
 /* Popup arrow */
-.popup .popuptext::after {
+/*.popup .popuptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -141,19 +141,39 @@ weather {
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
+/*.popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
 }
 
 /* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
+/*@-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
 }
 
-@keyframes fadeIn {
+/*@keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+
+/* Background image */
+/*.jumbotron{
+ // background: url(".\images\beach.jpg") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+body {
+  background-color: skyblue;
+}
+
+/* "auto" makes the left and right margins center the wrapper */
+/*#wrap { 
+	width: 900px; 
+	margin: 0 auto; 
 }
